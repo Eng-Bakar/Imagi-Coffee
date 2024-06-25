@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contact Us</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="Header">
+        <h1> IMAJI <span class="Coffee"> Coffee </span></h1>
+        <ul>
+            <a href="index.html"> <li> Home </li> </a>
+            <a href="Contact.html"> <li> Contact </li> </a>
+            <a href="About.html"> <li> About </li> </a>
+        </ul>
+        <div>
+            <button class="OrderBtn"> Order </button>
+            <button class=" SignBtn"> Sign In </button>
+        </div>
+    </div>
+    <div class="Contact-Header">
+        <h1> Contact Us </h1>
+        <p> "Reach out to us—because your voice matters" </p>
+    </div>
+    <form>
+        <div class="contact-form">
+            <label for="first-name" class="first-name"> First Name: </label>
+            <br>
+            <input type="text" id="fist-name" required>
+            <br><br>
+            <label for="lirst-name" class="last-name"> Last Name: </label>
+            <br>
+            <input type="text" id="last-name" required>
+            <br><br>
+
+            <label for="number" class="number"> Phone: </label>
+            <br>
+            <input type="number" id="telephone" required>
+            <br><br>
+
+            <label for="district" class="District" > District: </label>
+            <br>
+            <input name="district" type="district" id="district" list="districtlist">
+            <datalist id="districtlist">
+                <option value="Hamar Wayne">
+                    <option value="Wadajir">
+                    <option value="Hodan">
+                    <option value="Howlwadaag">
+                    <option value="Karaan">
+                    <option value="Yaqshid">
+                    <option value="Deynile">
+                    <option value="Heliwaa">
+                    <option value="Shangani">
+                    <option value="Wardhiigley">
+                    <option value="Shibis">
+                    <option value="Shingani">
+                    <option value="Bondhere">
+                    <option value="Abdiaziz">
+            </datalist>
+            <br> <br>
+            <label for="info" class="info"> More Info: </label>
+            <br>
+            <textarea name="info" id="information" rows="10" cols="88"></textarea>
+            <!-- <select>
+                <option value="Option-1"> Abdiaziz </option>
+                <option value="Option-2"> Bondhere </option>
+                <option value="Option-3"> Dharkeynley </option>
+                <option value="Option-4"> Dayniile </option>
+                <option value="Option-5"> Hamar Jajab </option>
+            </select> -->
+            <input class="Submit" type="submit" id="sendata" value="Send Data"  > 
+        </div>
+    </form>
+    <div class="About-footer">
+        <p> &copy; Copy Right | All Rights are Reserved by IMAJI Coffee.</p>
+    </div>
+</body>
+</html>
